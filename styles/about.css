@@ -1,0 +1,28 @@
+:root {
+  --link-color: rgb(255, 255, 255);
+  --link-color-hover: rgba(255, 108, 0);
+
+  --heading-font-family: "Raleway", sans-serif;
+  --text-font-family: "Open Sans", sans-serif;
+}
+
+* {
+  font-family: var(--text-font-family);
+}
+
+.global-header {
+  background-color: rgb(128, 128, 128);
+}
+
+.global-header .main-nav a,
+.global-header .main-nav a:visited {
+  color: var(--link-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.global-header .main-nav a:hover {
+  color: var(--link-color-hover);
+}
