@@ -36,6 +36,7 @@ ul {
 
 .global-header .main-nav a:hover {
   color: var(--link-color-hover);
+  cursor: pointer;
 }
 
 a {
