@@ -1,5 +1,6 @@
 :root {
   --link-color: rgb(255, 255, 255);
+  --aside-background-color: rgb(255, 255, 255);
   --social-link-color: rgb(0, 0, 0);
   --link-color-hover: rgba(255, 108, 0);
   --heading-font-family: "Raleway", sans-serif;
@@ -22,6 +23,7 @@ h6 {
 
 .global-header {
   background-color: rgb(128, 128, 128);
+  display: flex;
 }
 
 .global-header .main-nav a,
@@ -71,4 +73,20 @@ a {
   color: var(--link-color);
   line-height: 16px;
   padding: 8px;
+}
+
+.aside-container {
+  background-color: var(--aside-background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-divider {
+  width: 1px;
+  height: 60px;
 }

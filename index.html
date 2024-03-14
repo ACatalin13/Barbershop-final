@@ -18,58 +18,57 @@
 
 <body>
     <header class="global-header">
-
-        <a href="index.html">
-            <img src="./images/logo.svg" alt="logo-barbershop">
-        </a>
-        <nav class="main-nav">
-            <ul>
-                <li>
-                    <a href="about.html" class="active">About</a>
-                </li>
-                <li>
-                    <a href="services-and-prices.html">Services and Prices</a>
-                </li>
-                <li>
-                    <a href="barbers.html">Barbers</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-
-        <a href="tel:+38 044 111 11 11" class="contact">+38 044 111 11 11</a>
-
-        <button type="button" class="button-service">Book a Service</button>
-
-        <!-- Sectiunea pentru link-uri spre Youtube/Facebook -->
-        <aside>
-
-            <a class="social-link" href="https://www.youtube.com/" target="_blank"
-                rel="noopener noreferrer nofollow">Youtube</a>
-            <a class="social-link active" href="https://www.instagram.com/" target="_blank"
-                rel="noopener noreferrer nofollow">Instagram</a>
-            <img src="./images/header_section-divider.png" alt="line">
-
+        <aside class="container aside-container">
+            <a href="index.html">
+                <img src="./images/logo.svg" alt="logo-barbershop">
+            </a>
+            <div class="aside-social-links">
+                <a class="social-link" href="https://www.youtube.com/" target="_blank"
+                    rel="noopener noreferrer nofollow">Youtube</a>
+                <a class="social-link active" href="https://www.instagram.com/" target="_blank"
+                    rel="noopener noreferrer nofollow">Instagram</a>
+                <img src="./images/header_section-divider.png" alt="line" class="aside-divider">
+            </div>
         </aside>
+        <div class="header-container">
+            <nav class="main-nav">
+                <ul>
+                    <li>
+                        <a href="about.html" class="active">About</a>
+                    </li>
+                    <li>
+                        <a href="services-and-prices.html">Services and Prices</a>
+                    </li>
+                    <li>
+                        <a href="barbers.html">Barbers</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="tel:+38 044 111 11 11" class="contact">+38 044 111 11 11</a>
+
+            <button type="button" class="button-service">Book a Service</button>
+            <!-- Sectiunea "hero" -->
+            <section class="section hero-section">
+                <img src="./images/about_line.png" alt="line" />
+                <span>A hair salon for men in Kyiv</span>
+                <h1 class="hero-heading" title="Barbershop">BarberShop</h1>
+                <p>
+                    We are experts in trendy men's haircuts. We work quickly, carefully,
+                    and tastefully.
+                </p>
+                <button>Prev</button>
+                <button>Next</button>
+            </section>
+        </div>
+
     </header>
 
     <main>
-        <!-- Sectiunea "hero" -->
-        <section class="section hero-section">
-            <img src="./images/about_line.png" alt="line" />
-            <span>A hair salon for men in Kyiv</span>
-            <h1 class="hero-heading" title="Barbershop">BarberShop</h1>
-            <p>
-                We are experts in trendy men's haircuts. We work quickly, carefully,
-                and tastefully.
-            </p>
-            <button>Prev</button>
-            <button>Next</button>
-        </section>
-
-        <!-- sectiunea 'About' a site-ului nostru, cu sloganul principal si cele doua imagini -->
+        <!-- sectiunea 'About' -->
         <section>
             <img src="./images/om_barbierit.png" alt="om barbierit">
             <img src="./images/om_tuns.png" alt="om tuns">
