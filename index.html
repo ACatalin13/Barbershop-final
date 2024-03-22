@@ -46,14 +46,19 @@
                         </ul>
                         <div>
                             <a href="tel:+380441111111">+38 044 111 11 11</a>
-                            <button class="button global-header-book-btn">
+                            <button class="button book-a-service-btn" data-modal-open>
                                 BOOK A SERVICE
                             </button>
                         </div>
                     </nav>
                 </div>
             </header>
-
+            <div class="modal is-hidden" data-modal>
+                <div class="modal-content">
+                    <button class="close-btn" data-modal-close>&times;</button>
+                    continut modal
+                </div>
+            </div>
             <section class="section global-header-content">
                 <div class="section-description">
                     <div class="heading-with-dash">
@@ -107,7 +112,7 @@
                                 ready to improve everyone who comes to us!
                             </p>
                         </div>
-                        <button class="button">Book a service</button>
+                        <button class="button book-a-service-btn color-black">Book a service</button>
                     </div>
                 </div>
             </div>
@@ -179,7 +184,7 @@
                     </ul>
                 </div>
                 <div class="centered-content">
-                    <button class="button">Book a service</button>
+                    <button class="button book-a-service-btn">Book a service</button>
                 </div>
             </div>
         </section>
@@ -358,7 +363,7 @@
 
         <div class="container">
             <div class="booking-and-contact-section">
-                <!-- Book a section -->
+                <!-- Book a service section -->
                 <section class="section booking-form">
                     <h2>Book a Service</h2>
                     <button class="button-transparent">Send</button>
@@ -408,6 +413,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
